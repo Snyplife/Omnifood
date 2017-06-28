@@ -1,0 +1,95 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.orange {
+	color: #FFA500;
+}
+
+.centered {
+	margin: auto;
+}
+
+.center-width {
+	width: 83%;
+}
+
+
+
+/*				HEADER 					*/
+
+
+header {
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/fruit.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: #ffffff;
+	height: 40.8em;
+}
+
+nav ul {
+	float: right;
+	margin-top: 55px;
+	font-size: 18px;
+
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 35px;
+
+}
+
+
+nav li:hover {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #FFA500;
+}
+
+header h1 {
+	font-size: 50px;
+	font-weight: 300;
+	margin: 100px 0 50px 0;
+}
+
+/* 				END OF HEADER 				*/
+
+/*					SECTION 1					*/
+
+.section-1 h1 {
+color: #555555;
+font-size: 36px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+hr {
+	width: 10%;
+	border-color: #FFA500;
+
+}
+
+.section-1 p {
+	color: #848484;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
